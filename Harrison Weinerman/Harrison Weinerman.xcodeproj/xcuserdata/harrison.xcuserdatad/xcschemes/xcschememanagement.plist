@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Harrison Weinerman Today View.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Harrison Weinerman WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Harrison Weinerman.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>840144921AED9B3500602585</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>840144B71AED9D1C00602585</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84FDA9A11ADD45D500757FB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84FDA9B61ADD45D500757FB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

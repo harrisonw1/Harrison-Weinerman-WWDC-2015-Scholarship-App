@@ -1,0 +1,1022 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8401448E1AED9B3500602585 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401448D1AED9B3500602585 /* InterfaceController.swift */; };
+		840144901AED9B3500602585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8401448F1AED9B3500602585 /* Images.xcassets */; };
+		840144941AED9B3500602585 /* Harrison Weinerman WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 840144931AED9B3500602585 /* Harrison Weinerman WatchKit App.app */; };
+		8401449C1AED9B3500602585 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401449A1AED9B3500602585 /* Interface.storyboard */; };
+		8401449E1AED9B3500602585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8401449D1AED9B3500602585 /* Images.xcassets */; };
+		840144A11AED9B3500602585 /* Harrison Weinerman WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 840144891AED9B3500602585 /* Harrison Weinerman WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		840144AA1AED9BBF00602585 /* PortfolioDetailsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840144A91AED9BBF00602585 /* PortfolioDetailsInterfaceController.swift */; };
+		840144AD1AED9BDE00602585 /* AboutMeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840144AB1AED9BDE00602585 /* AboutMeInterfaceController.swift */; };
+		840144AE1AED9BDE00602585 /* PortfolioOverviewInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840144AC1AED9BDE00602585 /* PortfolioOverviewInterfaceController.swift */; };
+		840144B01AED9C0A00602585 /* portfolioObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840144AF1AED9C0A00602585 /* portfolioObj.swift */; };
+		840144B21AED9C3600602585 /* ImagesIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840144B11AED9C3600602585 /* ImagesIcon.xcassets */; };
+		840144B31AED9C3600602585 /* ImagesIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840144B11AED9C3600602585 /* ImagesIcon.xcassets */; };
+		840144BB1AED9D1C00602585 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840144BA1AED9D1C00602585 /* NotificationCenter.framework */; };
+		840144C01AED9D1C00602585 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840144BF1AED9D1C00602585 /* TodayViewController.swift */; };
+		840144C21AED9D1C00602585 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840144C11AED9D1C00602585 /* MainInterface.storyboard */; };
+		840144C51AED9D1C00602585 /* Harrison Weinerman Today View.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 840144B81AED9D1C00602585 /* Harrison Weinerman Today View.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		840144C91AED9DAC00602585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8401448F1AED9B3500602585 /* Images.xcassets */; };
+		840144CB1AED9E4800602585 /* AppleWWDCIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840144CA1AED9E4800602585 /* AppleWWDCIntroViewController.swift */; };
+		840144CE1AED9E5600602585 /* WWDCFinaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840144CC1AED9E5600602585 /* WWDCFinaleViewController.swift */; };
+		840144CF1AED9E5600602585 /* WWDCDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840144CD1AED9E5600602585 /* WWDCDetailsViewController.swift */; };
+		840144D11AED9E7B00602585 /* familywatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 840144D01AED9E7B00602585 /* familywatch.png */; };
+		840144D41AED9E8B00602585 /* calc.mov in Resources */ = {isa = PBXBuildFile; fileRef = 840144D21AED9E8B00602585 /* calc.mov */; };
+		840144D51AED9E8B00602585 /* mendham.mov in Resources */ = {isa = PBXBuildFile; fileRef = 840144D31AED9E8B00602585 /* mendham.mov */; };
+		840144D71AED9E9C00602585 /* wwdc.png in Resources */ = {isa = PBXBuildFile; fileRef = 840144D61AED9E9C00602585 /* wwdc.png */; };
+		8426AE2F1ADDE9B900832CE4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426AE2E1ADDE9B900832CE4 /* MenuViewController.swift */; };
+		8426AE311ADEFB0900832CE4 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426AE301ADEFB0900832CE4 /* PortfolioViewController.swift */; };
+		842D21291AE8787F00F1E74C /* code.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D21281AE8787F00F1E74C /* code.png */; };
+		842D212B1AE879F100F1E74C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842D212A1AE879F100F1E74C /* QuartzCore.framework */; };
+		842D212F1AE9139100F1E74C /* PortfolioDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D212E1AE9139100F1E74C /* PortfolioDetailViewController.swift */; };
+		842D21311AE9153600F1E74C /* PortfolioImageGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D21301AE9153600F1E74C /* PortfolioImageGalleryCollectionViewCell.swift */; };
+		842D21331AE91A3C00F1E74C /* keypad2.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D21321AE91A3C00F1E74C /* keypad2.png */; };
+		842D21351AE92E9100F1E74C /* keypad3.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D21341AE92E9100F1E74C /* keypad3.png */; };
+		842D21371AE94E5100F1E74C /* kphero.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D21361AE94E5100F1E74C /* kphero.png */; };
+		842D213D1AE9875600F1E74C /* keypad.mov in Resources */ = {isa = PBXBuildFile; fileRef = 842D213C1AE9875600F1E74C /* keypad.mov */; };
+		842D21431AE9942100F1E74C /* mendham2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 842D213E1AE9942100F1E74C /* mendham2.jpeg */; };
+		842D21441AE9942100F1E74C /* mendham3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 842D213F1AE9942100F1E74C /* mendham3.jpeg */; };
+		842D21451AE9942100F1E74C /* mendham4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 842D21401AE9942100F1E74C /* mendham4.jpeg */; };
+		842D21461AE9942100F1E74C /* mendham5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 842D21411AE9942100F1E74C /* mendham5.jpeg */; };
+		842D21471AE9942100F1E74C /* mendham1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 842D21421AE9942100F1E74C /* mendham1.jpeg */; };
+		842D214A1AE997C800F1E74C /* calc2.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D21481AE997C800F1E74C /* calc2.png */; };
+		842D214B1AE997C800F1E74C /* calc3.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D21491AE997C800F1E74C /* calc3.png */; };
+		842D214D1AE99BEB00F1E74C /* lake2.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D214C1AE99BEB00F1E74C /* lake2.png */; };
+		842D21501AE99D0500F1E74C /* ca.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 842D214E1AE99D0500F1E74C /* ca.jpeg */; };
+		842D21511AE99D0500F1E74C /* pt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 842D214F1AE99D0500F1E74C /* pt.jpeg */; };
+		842D21531AE99F6E00F1E74C /* codebox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842D21521AE99F6E00F1E74C /* codebox.jpg */; };
+		842D21551AE9A02300F1E74C /* codebox2.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D21541AE9A02300F1E74C /* codebox2.png */; };
+		842D21571AEBE42800F1E74C /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D21561AEBE42800F1E74C /* AboutMeViewController.swift */; };
+		842D21591AEC0FF200F1E74C /* mendham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842D21581AEC0FF200F1E74C /* mendham.jpg */; };
+		842D215E1AEC120B00F1E74C /* x32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842D215D1AEC120B00F1E74C /* x32.jpg */; };
+		842D21601AEC125900F1E74C /* berkeley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 842D215F1AEC125900F1E74C /* berkeley.jpg */; };
+		842D21621AEC133500F1E74C /* family.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D21611AEC133500F1E74C /* family.png */; };
+		84AFB5191AE7469600FDCBAC /* PorfolioOverviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFB5181AE7469600FDCBAC /* PorfolioOverviewCollectionViewCell.swift */; };
+		84AFB51B1AE748DC00FDCBAC /* keypad.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AFB51A1AE748DC00FDCBAC /* keypad.png */; };
+		84AFB51D1AE7B9F900FDCBAC /* calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AFB51C1AE7B9F900FDCBAC /* calc.png */; };
+		84C656731AE7BAEC009BB419 /* mendham.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C656721AE7BAEC009BB419 /* mendham.png */; };
+		84C656751AE7BC21009BB419 /* old.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C656741AE7BC21009BB419 /* old.png */; };
+		84C6567B1AE7BCC1009BB419 /* lake.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6567A1AE7BCC1009BB419 /* lake.png */; };
+		84FDA9A81ADD45D500757FB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDA9A71ADD45D500757FB7 /* AppDelegate.swift */; };
+		84FDA9AA1ADD45D500757FB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDA9A91ADD45D500757FB7 /* ViewController.swift */; };
+		84FDA9AD1ADD45D500757FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA9AB1ADD45D500757FB7 /* Main.storyboard */; };
+		84FDA9AF1ADD45D500757FB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA9AE1ADD45D500757FB7 /* Images.xcassets */; };
+		84FDA9B21ADD45D500757FB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA9B01ADD45D500757FB7 /* LaunchScreen.xib */; };
+		84FDA9BE1ADD45D500757FB7 /* Harrison_WeinermanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDA9BD1ADD45D500757FB7 /* Harrison_WeinermanTests.swift */; };
+		84FDA9CC1ADD4A9000757FB7 /* harrisonweinerman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84FDA9CB1ADD4A9000757FB7 /* harrisonweinerman.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840144951AED9B3500602585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FDA99A1ADD45D500757FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840144921AED9B3500602585;
+			remoteInfo = "Harrison Weinerman WatchKit App";
+		};
+		8401449F1AED9B3500602585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FDA99A1ADD45D500757FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840144881AED9B3500602585;
+			remoteInfo = "Harrison Weinerman WatchKit Extension";
+		};
+		840144C31AED9D1C00602585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FDA99A1ADD45D500757FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840144B71AED9D1C00602585;
+			remoteInfo = "Harrison Weinerman Today View";
+		};
+		84FDA9B81ADD45D500757FB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FDA99A1ADD45D500757FB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FDA9A11ADD45D500757FB7;
+			remoteInfo = "Harrison Weinerman";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		840144A81AED9B3500602585 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				840144A11AED9B3500602585 /* Harrison Weinerman WatchKit Extension.appex in Embed App Extensions */,
+				840144C51AED9D1C00602585 /* Harrison Weinerman Today View.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		840144891AED9B3500602585 /* Harrison Weinerman WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Harrison Weinerman WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8401448C1AED9B3500602585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8401448D1AED9B3500602585 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8401448F1AED9B3500602585 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		840144931AED9B3500602585 /* Harrison Weinerman WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harrison Weinerman WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840144991AED9B3500602585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8401449B1AED9B3500602585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8401449D1AED9B3500602585 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		840144A91AED9BBF00602585 /* PortfolioDetailsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioDetailsInterfaceController.swift; sourceTree = "<group>"; };
+		840144AB1AED9BDE00602585 /* AboutMeInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeInterfaceController.swift; sourceTree = "<group>"; };
+		840144AC1AED9BDE00602585 /* PortfolioOverviewInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioOverviewInterfaceController.swift; sourceTree = "<group>"; };
+		840144AF1AED9C0A00602585 /* portfolioObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = portfolioObj.swift; sourceTree = "<group>"; };
+		840144B11AED9C3600602585 /* ImagesIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImagesIcon.xcassets; sourceTree = "<group>"; };
+		840144B81AED9D1C00602585 /* Harrison Weinerman Today View.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Harrison Weinerman Today View.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840144BA1AED9D1C00602585 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		840144BE1AED9D1C00602585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840144BF1AED9D1C00602585 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		840144C11AED9D1C00602585 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		840144CA1AED9E4800602585 /* AppleWWDCIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleWWDCIntroViewController.swift; sourceTree = "<group>"; };
+		840144CC1AED9E5600602585 /* WWDCFinaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWDCFinaleViewController.swift; sourceTree = "<group>"; };
+		840144CD1AED9E5600602585 /* WWDCDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWDCDetailsViewController.swift; sourceTree = "<group>"; };
+		840144D01AED9E7B00602585 /* familywatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = familywatch.png; sourceTree = "<group>"; };
+		840144D21AED9E8B00602585 /* calc.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = calc.mov; sourceTree = "<group>"; };
+		840144D31AED9E8B00602585 /* mendham.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = mendham.mov; sourceTree = "<group>"; };
+		840144D61AED9E9C00602585 /* wwdc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wwdc.png; path = ../wwdc.png; sourceTree = "<group>"; };
+		8426AE2E1ADDE9B900832CE4 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8426AE301ADEFB0900832CE4 /* PortfolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		842D21281AE8787F00F1E74C /* code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code.png; sourceTree = "<group>"; };
+		842D212A1AE879F100F1E74C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		842D212E1AE9139100F1E74C /* PortfolioDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioDetailViewController.swift; sourceTree = "<group>"; };
+		842D21301AE9153600F1E74C /* PortfolioImageGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioImageGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		842D21321AE91A3C00F1E74C /* keypad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad2.png; sourceTree = "<group>"; };
+		842D21341AE92E9100F1E74C /* keypad3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad3.png; sourceTree = "<group>"; };
+		842D21361AE94E5100F1E74C /* kphero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kphero.png; sourceTree = "<group>"; };
+		842D21381AE9643D00F1E74C /* Harrison Weinerman-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Harrison Weinerman-Bridging-Header.h"; sourceTree = "<group>"; };
+		842D213C1AE9875600F1E74C /* keypad.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = keypad.mov; sourceTree = "<group>"; };
+		842D213E1AE9942100F1E74C /* mendham2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mendham2.jpeg; sourceTree = "<group>"; };
+		842D213F1AE9942100F1E74C /* mendham3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mendham3.jpeg; sourceTree = "<group>"; };
+		842D21401AE9942100F1E74C /* mendham4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mendham4.jpeg; sourceTree = "<group>"; };
+		842D21411AE9942100F1E74C /* mendham5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mendham5.jpeg; sourceTree = "<group>"; };
+		842D21421AE9942100F1E74C /* mendham1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mendham1.jpeg; sourceTree = "<group>"; };
+		842D21481AE997C800F1E74C /* calc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc2.png; sourceTree = "<group>"; };
+		842D21491AE997C800F1E74C /* calc3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc3.png; sourceTree = "<group>"; };
+		842D214C1AE99BEB00F1E74C /* lake2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lake2.png; sourceTree = "<group>"; };
+		842D214E1AE99D0500F1E74C /* ca.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ca.jpeg; sourceTree = "<group>"; };
+		842D214F1AE99D0500F1E74C /* pt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pt.jpeg; sourceTree = "<group>"; };
+		842D21521AE99F6E00F1E74C /* codebox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = codebox.jpg; sourceTree = "<group>"; };
+		842D21541AE9A02300F1E74C /* codebox2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codebox2.png; sourceTree = "<group>"; };
+		842D21561AEBE42800F1E74C /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		842D21581AEC0FF200F1E74C /* mendham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mendham.jpg; sourceTree = "<group>"; };
+		842D215D1AEC120B00F1E74C /* x32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = x32.jpg; sourceTree = "<group>"; };
+		842D215F1AEC125900F1E74C /* berkeley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berkeley.jpg; sourceTree = "<group>"; };
+		842D21611AEC133500F1E74C /* family.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = family.png; sourceTree = "<group>"; };
+		84AFB5181AE7469600FDCBAC /* PorfolioOverviewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PorfolioOverviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		84AFB51A1AE748DC00FDCBAC /* keypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad.png; sourceTree = "<group>"; };
+		84AFB51C1AE7B9F900FDCBAC /* calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calc.png; sourceTree = "<group>"; };
+		84C656721AE7BAEC009BB419 /* mendham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mendham.png; sourceTree = "<group>"; };
+		84C656741AE7BC21009BB419 /* old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = old.png; sourceTree = "<group>"; };
+		84C6567A1AE7BCC1009BB419 /* lake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lake.png; path = ../lake.png; sourceTree = "<group>"; };
+		84FDA9A21ADD45D500757FB7 /* HW-2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDA9A61ADD45D500757FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDA9A71ADD45D500757FB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84FDA9A91ADD45D500757FB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84FDA9AC1ADD45D500757FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FDA9AE1ADD45D500757FB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84FDA9B11ADD45D500757FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84FDA9B71ADD45D500757FB7 /* Harrison WeinermanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Harrison WeinermanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDA9BC1ADD45D500757FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDA9BD1ADD45D500757FB7 /* Harrison_WeinermanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harrison_WeinermanTests.swift; sourceTree = "<group>"; };
+		84FDA9CB1ADD4A9000757FB7 /* harrisonweinerman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = harrisonweinerman.jpg; path = ../harrisonweinerman.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840144861AED9B3500602585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840144B51AED9D1C00602585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840144BB1AED9D1C00602585 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDA99F1ADD45D500757FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842D212B1AE879F100F1E74C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDA9B41ADD45D500757FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8401448A1AED9B3500602585 /* Harrison Weinerman WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8401448D1AED9B3500602585 /* InterfaceController.swift */,
+				840144A91AED9BBF00602585 /* PortfolioDetailsInterfaceController.swift */,
+				840144AB1AED9BDE00602585 /* AboutMeInterfaceController.swift */,
+				840144AC1AED9BDE00602585 /* PortfolioOverviewInterfaceController.swift */,
+				840144AF1AED9C0A00602585 /* portfolioObj.swift */,
+				8401448F1AED9B3500602585 /* Images.xcassets */,
+				8401448B1AED9B3500602585 /* Supporting Files */,
+			);
+			path = "Harrison Weinerman WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8401448B1AED9B3500602585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8401448C1AED9B3500602585 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840144971AED9B3500602585 /* Harrison Weinerman WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8401449A1AED9B3500602585 /* Interface.storyboard */,
+				840144B11AED9C3600602585 /* ImagesIcon.xcassets */,
+				8401449D1AED9B3500602585 /* Images.xcassets */,
+				840144981AED9B3500602585 /* Supporting Files */,
+			);
+			path = "Harrison Weinerman WatchKit App";
+			sourceTree = "<group>";
+		};
+		840144981AED9B3500602585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840144991AED9B3500602585 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840144B91AED9D1C00602585 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				840144BA1AED9D1C00602585 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840144BC1AED9D1C00602585 /* Harrison Weinerman Today View */ = {
+			isa = PBXGroup;
+			children = (
+				840144BF1AED9D1C00602585 /* TodayViewController.swift */,
+				840144C11AED9D1C00602585 /* MainInterface.storyboard */,
+				840144BD1AED9D1C00602585 /* Supporting Files */,
+			);
+			path = "Harrison Weinerman Today View";
+			sourceTree = "<group>";
+		};
+		840144BD1AED9D1C00602585 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840144BE1AED9D1C00602585 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842D215A1AEC0FFC00F1E74C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				842D213C1AE9875600F1E74C /* keypad.mov */,
+				842D21361AE94E5100F1E74C /* kphero.png */,
+				840144D21AED9E8B00602585 /* calc.mov */,
+				840144D61AED9E9C00602585 /* wwdc.png */,
+				840144D31AED9E8B00602585 /* mendham.mov */,
+				840144D01AED9E7B00602585 /* familywatch.png */,
+				842D21281AE8787F00F1E74C /* code.png */,
+				84AFB51C1AE7B9F900FDCBAC /* calc.png */,
+				842D21481AE997C800F1E74C /* calc2.png */,
+				842D21491AE997C800F1E74C /* calc3.png */,
+				84C656721AE7BAEC009BB419 /* mendham.png */,
+				84C656741AE7BC21009BB419 /* old.png */,
+				84C6567A1AE7BCC1009BB419 /* lake.png */,
+				842D214C1AE99BEB00F1E74C /* lake2.png */,
+				84AFB51A1AE748DC00FDCBAC /* keypad.png */,
+				842D21321AE91A3C00F1E74C /* keypad2.png */,
+				842D21341AE92E9100F1E74C /* keypad3.png */,
+				84FDA9CB1ADD4A9000757FB7 /* harrisonweinerman.jpg */,
+				842D213E1AE9942100F1E74C /* mendham2.jpeg */,
+				842D213F1AE9942100F1E74C /* mendham3.jpeg */,
+				842D21401AE9942100F1E74C /* mendham4.jpeg */,
+				842D21411AE9942100F1E74C /* mendham5.jpeg */,
+				842D21421AE9942100F1E74C /* mendham1.jpeg */,
+				842D214E1AE99D0500F1E74C /* ca.jpeg */,
+				842D21521AE99F6E00F1E74C /* codebox.jpg */,
+				842D21541AE9A02300F1E74C /* codebox2.png */,
+				842D214F1AE99D0500F1E74C /* pt.jpeg */,
+				842D21581AEC0FF200F1E74C /* mendham.jpg */,
+				842D215D1AEC120B00F1E74C /* x32.jpg */,
+				842D215F1AEC125900F1E74C /* berkeley.jpg */,
+				842D21611AEC133500F1E74C /* family.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		84FDA9991ADD45D500757FB7 = {
+			isa = PBXGroup;
+			children = (
+				842D212A1AE879F100F1E74C /* QuartzCore.framework */,
+				84FDA9A41ADD45D500757FB7 /* Harrison Weinerman */,
+				84FDA9BA1ADD45D500757FB7 /* Harrison WeinermanTests */,
+				8401448A1AED9B3500602585 /* Harrison Weinerman WatchKit Extension */,
+				840144971AED9B3500602585 /* Harrison Weinerman WatchKit App */,
+				840144BC1AED9D1C00602585 /* Harrison Weinerman Today View */,
+				840144B91AED9D1C00602585 /* Frameworks */,
+				84FDA9A31ADD45D500757FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FDA9A31ADD45D500757FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FDA9A21ADD45D500757FB7 /* HW-2015.app */,
+				84FDA9B71ADD45D500757FB7 /* Harrison WeinermanTests.xctest */,
+				840144891AED9B3500602585 /* Harrison Weinerman WatchKit Extension.appex */,
+				840144931AED9B3500602585 /* Harrison Weinerman WatchKit App.app */,
+				840144B81AED9D1C00602585 /* Harrison Weinerman Today View.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FDA9A41ADD45D500757FB7 /* Harrison Weinerman */ = {
+			isa = PBXGroup;
+			children = (
+				84FDA9AB1ADD45D500757FB7 /* Main.storyboard */,
+				840144CC1AED9E5600602585 /* WWDCFinaleViewController.swift */,
+				840144CD1AED9E5600602585 /* WWDCDetailsViewController.swift */,
+				840144CA1AED9E4800602585 /* AppleWWDCIntroViewController.swift */,
+				84FDA9A71ADD45D500757FB7 /* AppDelegate.swift */,
+				84FDA9A91ADD45D500757FB7 /* ViewController.swift */,
+				8426AE2E1ADDE9B900832CE4 /* MenuViewController.swift */,
+				8426AE301ADEFB0900832CE4 /* PortfolioViewController.swift */,
+				84AFB5181AE7469600FDCBAC /* PorfolioOverviewCollectionViewCell.swift */,
+				842D212E1AE9139100F1E74C /* PortfolioDetailViewController.swift */,
+				842D21301AE9153600F1E74C /* PortfolioImageGalleryCollectionViewCell.swift */,
+				842D21561AEBE42800F1E74C /* AboutMeViewController.swift */,
+				842D215A1AEC0FFC00F1E74C /* Assets */,
+				84FDA9AE1ADD45D500757FB7 /* Images.xcassets */,
+				84FDA9B01ADD45D500757FB7 /* LaunchScreen.xib */,
+				84FDA9A51ADD45D500757FB7 /* Supporting Files */,
+				842D21381AE9643D00F1E74C /* Harrison Weinerman-Bridging-Header.h */,
+			);
+			path = "Harrison Weinerman";
+			sourceTree = "<group>";
+		};
+		84FDA9A51ADD45D500757FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FDA9A61ADD45D500757FB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FDA9BA1ADD45D500757FB7 /* Harrison WeinermanTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FDA9BD1ADD45D500757FB7 /* Harrison_WeinermanTests.swift */,
+				84FDA9BB1ADD45D500757FB7 /* Supporting Files */,
+			);
+			path = "Harrison WeinermanTests";
+			sourceTree = "<group>";
+		};
+		84FDA9BB1ADD45D500757FB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FDA9BC1ADD45D500757FB7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840144881AED9B3500602585 /* Harrison Weinerman WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840144A71AED9B3500602585 /* Build configuration list for PBXNativeTarget "Harrison Weinerman WatchKit Extension" */;
+			buildPhases = (
+				840144851AED9B3500602585 /* Sources */,
+				840144861AED9B3500602585 /* Frameworks */,
+				840144871AED9B3500602585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840144961AED9B3500602585 /* PBXTargetDependency */,
+			);
+			name = "Harrison Weinerman WatchKit Extension";
+			productName = "Harrison Weinerman WatchKit Extension";
+			productReference = 840144891AED9B3500602585 /* Harrison Weinerman WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		840144921AED9B3500602585 /* Harrison Weinerman WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840144A61AED9B3500602585 /* Build configuration list for PBXNativeTarget "Harrison Weinerman WatchKit App" */;
+			buildPhases = (
+				840144911AED9B3500602585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harrison Weinerman WatchKit App";
+			productName = "Harrison Weinerman WatchKit App";
+			productReference = 840144931AED9B3500602585 /* Harrison Weinerman WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		840144B71AED9D1C00602585 /* Harrison Weinerman Today View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840144C81AED9D1C00602585 /* Build configuration list for PBXNativeTarget "Harrison Weinerman Today View" */;
+			buildPhases = (
+				840144B41AED9D1C00602585 /* Sources */,
+				840144B51AED9D1C00602585 /* Frameworks */,
+				840144B61AED9D1C00602585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Harrison Weinerman Today View";
+			productName = "Harrison Weinerman Today View";
+			productReference = 840144B81AED9D1C00602585 /* Harrison Weinerman Today View.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		84FDA9A11ADD45D500757FB7 /* Harrison Weinerman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FDA9C11ADD45D500757FB7 /* Build configuration list for PBXNativeTarget "Harrison Weinerman" */;
+			buildPhases = (
+				84FDA99E1ADD45D500757FB7 /* Sources */,
+				84FDA99F1ADD45D500757FB7 /* Frameworks */,
+				84FDA9A01ADD45D500757FB7 /* Resources */,
+				840144A81AED9B3500602585 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840144A01AED9B3500602585 /* PBXTargetDependency */,
+				840144C41AED9D1C00602585 /* PBXTargetDependency */,
+			);
+			name = "Harrison Weinerman";
+			productName = "Harrison Weinerman";
+			productReference = 84FDA9A21ADD45D500757FB7 /* HW-2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FDA9B61ADD45D500757FB7 /* Harrison WeinermanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FDA9C41ADD45D500757FB7 /* Build configuration list for PBXNativeTarget "Harrison WeinermanTests" */;
+			buildPhases = (
+				84FDA9B31ADD45D500757FB7 /* Sources */,
+				84FDA9B41ADD45D500757FB7 /* Frameworks */,
+				84FDA9B51ADD45D500757FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FDA9B91ADD45D500757FB7 /* PBXTargetDependency */,
+			);
+			name = "Harrison WeinermanTests";
+			productName = "Harrison WeinermanTests";
+			productReference = 84FDA9B71ADD45D500757FB7 /* Harrison WeinermanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FDA99A1ADD45D500757FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Harrison Weinerman";
+				TargetAttributes = {
+					840144881AED9B3500602585 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					840144921AED9B3500602585 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					840144B71AED9D1C00602585 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					84FDA9A11ADD45D500757FB7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					84FDA9B61ADD45D500757FB7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 84FDA9A11ADD45D500757FB7;
+					};
+				};
+			};
+			buildConfigurationList = 84FDA99D1ADD45D500757FB7 /* Build configuration list for PBXProject "Harrison Weinerman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FDA9991ADD45D500757FB7;
+			productRefGroup = 84FDA9A31ADD45D500757FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FDA9A11ADD45D500757FB7 /* Harrison Weinerman */,
+				84FDA9B61ADD45D500757FB7 /* Harrison WeinermanTests */,
+				840144881AED9B3500602585 /* Harrison Weinerman WatchKit Extension */,
+				840144921AED9B3500602585 /* Harrison Weinerman WatchKit App */,
+				840144B71AED9D1C00602585 /* Harrison Weinerman Today View */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840144871AED9B3500602585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840144941AED9B3500602585 /* Harrison Weinerman WatchKit App.app in Resources */,
+				840144901AED9B3500602585 /* Images.xcassets in Resources */,
+				840144B21AED9C3600602585 /* ImagesIcon.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840144911AED9B3500602585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8401449C1AED9B3500602585 /* Interface.storyboard in Resources */,
+				840144C91AED9DAC00602585 /* Images.xcassets in Resources */,
+				8401449E1AED9B3500602585 /* Images.xcassets in Resources */,
+				840144B31AED9C3600602585 /* ImagesIcon.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840144B61AED9D1C00602585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840144C21AED9D1C00602585 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDA9A01ADD45D500757FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842D21371AE94E5100F1E74C /* kphero.png in Resources */,
+				84AFB51B1AE748DC00FDCBAC /* keypad.png in Resources */,
+				842D213D1AE9875600F1E74C /* keypad.mov in Resources */,
+				842D21291AE8787F00F1E74C /* code.png in Resources */,
+				842D214D1AE99BEB00F1E74C /* lake2.png in Resources */,
+				842D21601AEC125900F1E74C /* berkeley.jpg in Resources */,
+				842D21471AE9942100F1E74C /* mendham1.jpeg in Resources */,
+				842D214A1AE997C800F1E74C /* calc2.png in Resources */,
+				840144D51AED9E8B00602585 /* mendham.mov in Resources */,
+				840144D11AED9E7B00602585 /* familywatch.png in Resources */,
+				842D21351AE92E9100F1E74C /* keypad3.png in Resources */,
+				842D21551AE9A02300F1E74C /* codebox2.png in Resources */,
+				842D21591AEC0FF200F1E74C /* mendham.jpg in Resources */,
+				84C6567B1AE7BCC1009BB419 /* lake.png in Resources */,
+				842D214B1AE997C800F1E74C /* calc3.png in Resources */,
+				842D21441AE9942100F1E74C /* mendham3.jpeg in Resources */,
+				842D21501AE99D0500F1E74C /* ca.jpeg in Resources */,
+				842D21531AE99F6E00F1E74C /* codebox.jpg in Resources */,
+				842D21621AEC133500F1E74C /* family.png in Resources */,
+				84C656751AE7BC21009BB419 /* old.png in Resources */,
+				84C656731AE7BAEC009BB419 /* mendham.png in Resources */,
+				84AFB51D1AE7B9F900FDCBAC /* calc.png in Resources */,
+				840144D71AED9E9C00602585 /* wwdc.png in Resources */,
+				842D21511AE99D0500F1E74C /* pt.jpeg in Resources */,
+				842D21461AE9942100F1E74C /* mendham5.jpeg in Resources */,
+				84FDA9AD1ADD45D500757FB7 /* Main.storyboard in Resources */,
+				842D21431AE9942100F1E74C /* mendham2.jpeg in Resources */,
+				84FDA9B21ADD45D500757FB7 /* LaunchScreen.xib in Resources */,
+				842D21451AE9942100F1E74C /* mendham4.jpeg in Resources */,
+				840144D41AED9E8B00602585 /* calc.mov in Resources */,
+				84FDA9CC1ADD4A9000757FB7 /* harrisonweinerman.jpg in Resources */,
+				842D215E1AEC120B00F1E74C /* x32.jpg in Resources */,
+				84FDA9AF1ADD45D500757FB7 /* Images.xcassets in Resources */,
+				842D21331AE91A3C00F1E74C /* keypad2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDA9B51ADD45D500757FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840144851AED9B3500602585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8401448E1AED9B3500602585 /* InterfaceController.swift in Sources */,
+				840144B01AED9C0A00602585 /* portfolioObj.swift in Sources */,
+				840144AA1AED9BBF00602585 /* PortfolioDetailsInterfaceController.swift in Sources */,
+				840144AD1AED9BDE00602585 /* AboutMeInterfaceController.swift in Sources */,
+				840144AE1AED9BDE00602585 /* PortfolioOverviewInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840144B41AED9D1C00602585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840144C01AED9D1C00602585 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDA99E1ADD45D500757FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840144CF1AED9E5600602585 /* WWDCDetailsViewController.swift in Sources */,
+				840144CE1AED9E5600602585 /* WWDCFinaleViewController.swift in Sources */,
+				842D21311AE9153600F1E74C /* PortfolioImageGalleryCollectionViewCell.swift in Sources */,
+				84FDA9AA1ADD45D500757FB7 /* ViewController.swift in Sources */,
+				840144CB1AED9E4800602585 /* AppleWWDCIntroViewController.swift in Sources */,
+				8426AE311ADEFB0900832CE4 /* PortfolioViewController.swift in Sources */,
+				842D212F1AE9139100F1E74C /* PortfolioDetailViewController.swift in Sources */,
+				842D21571AEBE42800F1E74C /* AboutMeViewController.swift in Sources */,
+				84AFB5191AE7469600FDCBAC /* PorfolioOverviewCollectionViewCell.swift in Sources */,
+				84FDA9A81ADD45D500757FB7 /* AppDelegate.swift in Sources */,
+				8426AE2F1ADDE9B900832CE4 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FDA9B31ADD45D500757FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FDA9BE1ADD45D500757FB7 /* Harrison_WeinermanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840144961AED9B3500602585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840144921AED9B3500602585 /* Harrison Weinerman WatchKit App */;
+			targetProxy = 840144951AED9B3500602585 /* PBXContainerItemProxy */;
+		};
+		840144A01AED9B3500602585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840144881AED9B3500602585 /* Harrison Weinerman WatchKit Extension */;
+			targetProxy = 8401449F1AED9B3500602585 /* PBXContainerItemProxy */;
+		};
+		840144C41AED9D1C00602585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840144B71AED9D1C00602585 /* Harrison Weinerman Today View */;
+			targetProxy = 840144C31AED9D1C00602585 /* PBXContainerItemProxy */;
+		};
+		84FDA9B91ADD45D500757FB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FDA9A11ADD45D500757FB7 /* Harrison Weinerman */;
+			targetProxy = 84FDA9B81ADD45D500757FB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8401449A1AED9B3500602585 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8401449B1AED9B3500602585 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		84FDA9AB1ADD45D500757FB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FDA9AC1ADD45D500757FB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FDA9B01ADD45D500757FB7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FDA9B11ADD45D500757FB7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840144A21AED9B3500602585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Harrison Weinerman WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		840144A31AED9B3500602585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Harrison Weinerman WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		840144A41AED9B3500602585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Harrison_Weinerman_WatchKit_Extension;
+				INFOPLIST_FILE = "Harrison Weinerman WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		840144A51AED9B3500602585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = Harrison_Weinerman_WatchKit_Extension;
+				INFOPLIST_FILE = "Harrison Weinerman WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		840144C61AED9D1C00602585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Harrison Weinerman Today View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		840144C71AED9D1C00602585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Harrison Weinerman Today View/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84FDA9BF1ADD45D500757FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "HW-2015";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84FDA9C01ADD45D500757FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "HW-2015";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FDA9C21ADD45D500757FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Harrison Weinerman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "HW-2015";
+				SWIFT_OBJC_BRIDGING_HEADER = "Harrison Weinerman/Harrison Weinerman-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84FDA9C31ADD45D500757FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Harrison Weinerman/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "HW-2015";
+				SWIFT_OBJC_BRIDGING_HEADER = "Harrison Weinerman/Harrison Weinerman-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		84FDA9C51ADD45D500757FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Harrison WeinermanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harrison Weinerman.app/Harrison Weinerman";
+			};
+			name = Debug;
+		};
+		84FDA9C61ADD45D500757FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Harrison WeinermanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harrison Weinerman.app/Harrison Weinerman";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840144A61AED9B3500602585 /* Build configuration list for PBXNativeTarget "Harrison Weinerman WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840144A41AED9B3500602585 /* Debug */,
+				840144A51AED9B3500602585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840144A71AED9B3500602585 /* Build configuration list for PBXNativeTarget "Harrison Weinerman WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840144A21AED9B3500602585 /* Debug */,
+				840144A31AED9B3500602585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840144C81AED9D1C00602585 /* Build configuration list for PBXNativeTarget "Harrison Weinerman Today View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840144C61AED9D1C00602585 /* Debug */,
+				840144C71AED9D1C00602585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84FDA99D1ADD45D500757FB7 /* Build configuration list for PBXProject "Harrison Weinerman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FDA9BF1ADD45D500757FB7 /* Debug */,
+				84FDA9C01ADD45D500757FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FDA9C11ADD45D500757FB7 /* Build configuration list for PBXNativeTarget "Harrison Weinerman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FDA9C21ADD45D500757FB7 /* Debug */,
+				84FDA9C31ADD45D500757FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FDA9C41ADD45D500757FB7 /* Build configuration list for PBXNativeTarget "Harrison WeinermanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FDA9C51ADD45D500757FB7 /* Debug */,
+				84FDA9C61ADD45D500757FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FDA99A1ADD45D500757FB7 /* Project object */;
+}
